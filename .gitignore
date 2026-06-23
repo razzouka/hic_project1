@@ -12,20 +12,15 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Data folders
-data/raw/
-data/trimmed/
-data/reference/
-data/juicer/
+# Folders
+data/*
+!data/.gitkeep
 
-# Results
-results/fastqc_raw/
-results/fastqc_trimmed/
-results/cutadapt/
-results/hic/
+results/*
+!results/.gitkeep
 
-# Tools
-tools/
+tools/*
+!tools/.gitkeep
 
 # Large bioinformatics files
 *.fastq
