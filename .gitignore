@@ -1,0 +1,60 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data folders
+data/raw/
+data/trimmed/
+data/reference/
+data/juicer/
+
+# Results
+results/fastqc_raw/
+results/fastqc_trimmed/
+results/cutadapt/
+results/hic/
+
+# Tools
+tools/
+
+# Large bioinformatics files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fa
+*.fa.gz
+*.fasta
+*.fasta.gz
+*.fna
+*.fna.gz
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+*.hic
+*.bw
+*.bigWig
+*.bedGraph
+*.wig
+*.pairs
+*.pairs.gz
+
+# Juicer / index files
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+*.fai
